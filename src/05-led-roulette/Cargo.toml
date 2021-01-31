@@ -6,3 +6,4 @@ version = "0.1.0"
 
 [dependencies]
 aux5 = { path = "auxiliary" }
+cortex-m = "=0.6.4"
