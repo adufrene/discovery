@@ -1,0 +1,17 @@
+{
+    "tasks": [
+        {
+            "label": "build",
+            "type": "cargo",
+            "subcommand": "build",
+            "problemMatcher": [
+                "$rustc",
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+        }
+    ],
+    "version": "2.0.0",
+}
