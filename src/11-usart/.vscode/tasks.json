@@ -3,15 +3,15 @@
         {
             "label": "build",
             "type": "cargo",
-            "subcommand": "build",
+            "command": "build",
             "problemMatcher": [
-                "$rustc",
+                "$rustc"
             ],
             "group": {
                 "kind": "build",
                 "isDefault": true
-            },
-        }
+            }
+        },
     ],
     "version": "2.0.0",
 }
